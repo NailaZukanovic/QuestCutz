@@ -1,0 +1,70 @@
+{
+  "name": "Holistic",
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage",
+    "jest": "node_modules/.bin/jest",
+    "prettier": "prettier --write App.js screens/*/index.js components/*/index.js navigation/*/index.js assets/images/svg/*.js",
+    "eslint": "eslint App.js screens/*/index.js components/*/index.js navigation/*/index.js screens/*/data.js assets/images/svg/*.js screens/*/styles.js components/*/styles.js",
+    "eslint-fix": "eslint --fix App.js screens/*/index.js components/*/index.js navigation/*/index.js screens/*/data.js assets/images/svg/*.js screens/*/styles.js components/*/styles.js",
+    "test": "npm run prettier && npm run eslint"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "expo": "^33.0.0",
+    "expo-asset": "^5.0.1",
+    "expo-font": "~5.0.1",
+    "lodash.get": "^4.4.2",
+    "lodash.isequal": "^4.5.0",
+    "react": "16.8.3",
+    "react-devtools-core": "^3.4.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-elements": "^0.19.1",
+    "react-native-keyboard-aware-scroll-view": "^0.7.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-snap-carousel": "^3.7.4",
+    "react-native-tab-view": "^1.2.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^3.11.0",
+    "react-navigation-tabs": "^0.8.2",
+    "react-test-renderer": "^16.5.2",
+    "whatwg-fetch": "^2.0.4",
+    "ws": "^6.0.0",
+    "xdate": "^0.8.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "^5.6.0",
+    "eslint-plugin-flowtype": "^2.50.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.81.0",
+    "husky": "^1.0.1",
+    "jest-cli": "^23.6.0",
+    "jest-expo": "^33.0.2",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  }
+}
