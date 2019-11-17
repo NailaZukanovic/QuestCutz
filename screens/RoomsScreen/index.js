@@ -58,7 +58,7 @@ export default class RoomsScreen extends React.Component {
             action: this.onFav,
             size: 30
           }}
-          topbarText={"Hyatt Roma Lounge Rooms"}
+          topbarText={"Markus R"}
         />
         <ScrollView style={styles.scrollViewBlock}>
           {this.renderObjects(tempObjects)}

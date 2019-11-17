@@ -11,7 +11,7 @@ export default [
     {
         illustration: require("../../assets/images/photos/5.jpeg")
     },
-    {
-        illustration: require("../../assets/images/photos/1.jpeg")
-    }
+    // {
+    //     illustration: require("../../assets/images/photos/1.jpeg")
+    // }
 ];

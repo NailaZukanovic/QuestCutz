@@ -207,22 +207,22 @@ export default class HomePage extends React.Component {
               onChangeText={text => this.setState({ searchText: text })}
               placeholderTextColor={variable.whiteColor}
               underlineColorAndroid="transparent"
-              placeholder="Roma, Italy"
+              placeholder="South Central, Los Angeles"
               keyboardAppearance="dark"
               selectionColor={variable.whiteColor}
             />
           </View>
           <View style={styles.dividerDark} />
-          <View
+          {/* <View
             style={[
               styles.searchFormRow,
               { height: 62 * dh, paddingHorizontal: 0 }
             ]}
           >
-            <CalendarRangeInput label={["Check-In", "Check-Out"]} />
-          </View>
+            <CalendarRangeInput label={["", "Check-Out"]} />
+          </View> */}
           <View style={styles.dividerDark} />
-          <View
+          {/* <View
             style={[
               styles.searchFormRow,
               {
@@ -254,7 +254,7 @@ export default class HomePage extends React.Component {
               keyboardType="numeric"
             />
           </View>
-          <View style={styles.dividerDark} />
+          <View style={styles.dividerDark} /> */}
           <View
             style={[
               styles.searchFormRow,
@@ -269,18 +269,18 @@ export default class HomePage extends React.Component {
               }
             ]}
           >
-            <Text style={styles.travelText}>??</Text>
+            <Text style={styles.travelText} />
             <View style={{ flex: 3 }}>
               <CheckBox
                 onCheck={() => this.onCheck("work")}
-                label="Work"
+                label="Store"
                 active={this.state.purpose === "work"}
               />
             </View>
             <View style={{ flex: 3 }}>
               <CheckBox
                 onCheck={() => this.onCheck("leisure")}
-                label="Leisure"
+                label="Delivered"
                 active={this.state.purpose === "leisure"}
               />
             </View>
@@ -359,7 +359,7 @@ export default class HomePage extends React.Component {
             ]
           }}
         >
-          <View
+          {/* <View
             style={{
               flex: 1,
               justifyContent: "center",
@@ -367,8 +367,8 @@ export default class HomePage extends React.Component {
             }}
           >
             <Text style={styles.titleText}>SUBSCRIBE</Text>
-          </View>
-          <View
+          </View> */}
+          {/* <View
             style={{
               justifyContent: "center",
               alignItems: "center",
@@ -401,7 +401,7 @@ export default class HomePage extends React.Component {
               </TouchableOpacity>
             </View>
             <View style={styles.valid}>{mailValid}</View>
-          </View>
+          </View> */}
         </Animated.View>
       </ScrollView>
     );

@@ -55,14 +55,10 @@ export default class HotelPageAbout extends React.Component {
           <Text style={styles.titleText}>About</Text>
         </View>
         <Text style={styles.about}>
-          Soho Hotel is very well located in Barcelona if you want to visit the
-          city centre and the main attractions by walking (we did everything by
-          walking). On the other hand, you must absolutely do the Barcelona Bus
-          Turistic at the beginning of your stay and you can buy tickets at the
-          reception with a discount.
+        I am head barber and proud owner of Refuge Barbershop. I have 18 years experience and have dedicated myself to my craft. I apprenticed with a master barber for first three years of my career and forever thankful for the opportunity. The apprenticeship and my valued customers have made this an amazing experience.
         </Text>
         <View style={styles.title}>
-          <Text style={styles.titleText}>Facilities</Text>
+          <Text style={styles.titleText}>Services</Text>
         </View>
         <View style={styles.facilities}>
           <View style={styles.singleFacility}>
@@ -73,7 +69,7 @@ export default class HotelPageAbout extends React.Component {
                 color={variable.accentColor}
               />
             </View>
-            <Text style={styles.facilityText}>Wi-Fi</Text>
+            <Text style={styles.facilityText}>Barber Cut</Text>
           </View>
           <View style={styles.singleFacility}>
             <View style={styles.icon}>
@@ -83,7 +79,7 @@ export default class HotelPageAbout extends React.Component {
                 color={variable.accentColor}
               />
             </View>
-            <Text style={styles.facilityText}>Beer</Text>
+            <Text style={styles.facilityText}>Stylist Cut</Text>
           </View>
           <View style={styles.singleFacility}>
             <View style={styles.icon}>
@@ -93,7 +89,7 @@ export default class HotelPageAbout extends React.Component {
                 color={variable.accentColor}
               />
             </View>
-            <Text style={styles.facilityText}>TV</Text>
+            <Text style={styles.facilityText}>Long Cut</Text>
           </View>
           <View style={styles.singleFacility}>
             <View style={styles.icon}>
@@ -103,13 +99,13 @@ export default class HotelPageAbout extends React.Component {
                 color={variable.accentColor}
               />
             </View>
-            <Text style={styles.facilityText}>Gym</Text>
+            <Text style={styles.facilityText}>Kid's Cut</Text>
           </View>
           <View style={styles.singleFacility}>
             <View style={styles.icon}>
               <Ionicons name="ios-car" size={23} color={variable.accentColor} />
             </View>
-            <Text style={styles.facilityText}>Transfer</Text>
+            <Text style={styles.facilityText}>Cut and shave</Text>
           </View>
           <TouchableOpacity
             onPress={() => {

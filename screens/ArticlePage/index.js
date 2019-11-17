@@ -112,7 +112,7 @@ export default class ArticlePage extends React.Component {
               action: this.onFav,
               size: 30
             }}
-            topbarText="Hyatt Roma Lounge"
+            topbarText="Barber Shop"
           />
           <View style={styles.center}>
             <ActivityIndicator size="large" color="#fff" />
@@ -130,7 +130,7 @@ export default class ArticlePage extends React.Component {
             action: this.onFav,
             size: 30
           }}
-          topbarText="Hyatt Roma Lounge"
+          topbarText="Marucs"
         />
         <ScrollView style={styles.scrollArticle}>
           <View style={styles.date}>

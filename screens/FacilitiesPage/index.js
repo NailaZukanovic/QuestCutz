@@ -21,7 +21,7 @@ export default class PaymentScreen extends React.Component {
         <StatusBar barStyle="light-content" hidden={false} />
         <TopBar
           leftIcon={{ name: "ios-arrow-back", action: this.OnBack, size: 23 }}
-          topbarText={"Hyatt Roma Lounge Facilities"}
+          topbarText={"Marcus's Services"}
         />
         <ScrollView style={styles.scrollViewBlock}>
           <View style={styles.nextFacilities}>

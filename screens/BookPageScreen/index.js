@@ -56,7 +56,7 @@ export default class BookPageScreen extends React.Component {
               action: this.onFav,
               size: 30
             }}
-            topbarText={"Hyatt Roma Lounge Room Booking"}
+            topbarText={"Marcus Booking"}
           />
           <View style={styles.center}>
             <ActivityIndicator size="large" color="#fff" />
@@ -80,12 +80,12 @@ export default class BookPageScreen extends React.Component {
             action: this.onFav,
             size: 30
           }}
-          topbarText={"Hyatt Roma Lounge Room Booking"}
+          topbarText={"Marcus Booking"}
         />
         <View style={styles.bookHeader}>
           <DescriptionObject
             title="Twin Room"
-            text="Hyatt Roma Lounge"
+            text="Marcus D."
             containerStyle={styles.description}
             textColor={variable.whiteColor}
             image={require("../../assets/images/photos/01.jpeg")}

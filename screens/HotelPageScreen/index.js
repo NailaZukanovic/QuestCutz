@@ -54,7 +54,7 @@ export default class HotelPageScreen extends Component {
               action: this.onFav,
               size: 30
             }}
-            topbarText={"Hyatt Roma Lounge"}
+            topbarText={"Markus"}
           />
           <View style={styles.center}>
             <ActivityIndicator size="large" color="#fff" />
@@ -76,7 +76,7 @@ export default class HotelPageScreen extends Component {
             action: this.onFav,
             size: 30
           }}
-          topbarText={"Hyatt Roma Lounge"}
+          topbarText={"Markus"}
         />
         {slider}
         <View style={styles.underSlider}>

@@ -147,7 +147,7 @@ export default class ReviewPage extends React.Component {
               />
             </TouchableOpacity>
           }
-          topbarText={"Hyatt Roma Add Your Review"}
+          topbarText={"Markus Add Your Review"}
         />
         <View style={styles.animatedBlock}>
           {this.renderMethod()}
