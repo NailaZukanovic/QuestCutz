@@ -106,7 +106,7 @@ export default class ProfileScreen extends React.Component {
                 />
               </View>
               <View style={styles.personBlock}>
-                <Text style={styles.textName}>Alex Stones</Text>
+                <Text style={styles.textName}>Jorde G</Text>
               </View>
             </View>
           </View>

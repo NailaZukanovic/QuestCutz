@@ -48,7 +48,7 @@ const CustomDrawerContentComponent = props => (
           />
         </View>
         <View style={{ marginLeft: 17 * dw }}>
-          <Text style={styles.drawerProfileTitle}>Alex Stones</Text>
+          <Text style={styles.drawerProfileTitle}>Jorde G</Text>
           <Text
             style={[
               { fontSize: variable.fontSizeSmallText * dw },
