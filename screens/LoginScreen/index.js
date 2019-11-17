@@ -12,10 +12,10 @@ import CredentialsScreen from "../CredentialsScreen";
 const window = Dimensions.get("window");
 import { dw, dh } from "../../components/Scaler";
 import styles from "./styles";
-import Logo from "../../assets/images/svg/Logo";
+// import Logo from "../../assets/images/svg/Logo";
 import variable from "../../variables/commonColors";
 
-const AnimLogo = Animated.createAnimatedComponent(Logo);
+// const AnimLogo = Animated.createAnimatedComponent(Logo);
 
 export default class LoginScreen extends Component {
   static navigationOptions = {
@@ -95,12 +95,12 @@ export default class LoginScreen extends Component {
             styles.firstAnimatedBlock
           ]}
         >
-          <AnimLogo
+          {/* <AnimLogo
             style={{
               height: 92,
               width: 76
             }}
-          />
+          /> */}
           <Animated.Text
             style={[
               {
@@ -116,7 +116,7 @@ export default class LoginScreen extends Component {
               styles.secondAnimatedBlock
             ]}
           >
-            Holistic
+            Questcuts
           </Animated.Text>
         </Animated.View>
         <Animated.View

@@ -12,7 +12,7 @@ import {
 } from "react-native";
 import TopBar from "../../components/TopBar";
 import Ionicons from "react-native-vector-icons/Ionicons";
-import Logo from "../../assets/images/svg/Logo";
+// import Logo from "../../assets/images/svg/Logo";
 import Gift from "../../assets/images/svg/Gift";
 import Menu from "../../assets/images/svg/Menu";
 import CheckBox from "../../components/CheckBox";

@@ -125,7 +125,7 @@ export default class LoginScreenIn extends Component {
               fontWeight: "bold"
             }}
           >
-            Holistic
+           QuestCuts
           </Animated.Text>
         </Animated.View>
         <Animated.View
